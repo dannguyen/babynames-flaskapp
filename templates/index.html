@@ -1,0 +1,13 @@
+<div>
+
+      {% for sex, names in names_by_sex.items() %}
+      <h3>{{sex}}</h3>
+      <ul>
+        {% for name in names %}
+          <li><a href="/{{sex}}/{{name}}">{{name}}</a></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+
+</div>
+

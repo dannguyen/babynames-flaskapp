@@ -1,0 +1,10 @@
+
+# Ignore the build directory
+/build
+
+# Ignore cache
+/.sass-cache
+/.cache
+__pycache__/
+.DS_Store
+/data-hold
